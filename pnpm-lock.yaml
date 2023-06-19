@@ -1,0 +1,16 @@
+lockfileVersion: 5.3
+
+specifiers:
+  npm-changelog: ^1.0.21
+
+devDependencies:
+  npm-changelog: 1.0.21
+
+packages:
+
+  /npm-changelog/1.0.21:
+    resolution: {integrity: sha512-YCTBsU1N+5Se23j2sSiOTEEe7Ud+8aG1dfDUdkC5WmCSxRaOu4pSj7f5kdq7/os7Z64+bNRy9f2xXp6/1baQrQ==}
+    hasBin: true
+    peerDependencies:
+      simple-git-hooks: ^2.8.1
+    dev: true
