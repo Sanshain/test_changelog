@@ -12,7 +12,3 @@
 
  - feature: added b
  - feature: a is 2
-
-## 1.0.3
-
- - base functionality
