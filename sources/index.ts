@@ -12,7 +12,7 @@ type Props = {
 
 
 type TableKeys = ArrayOfKeys<Props>;
-let tableKeys: TableKeys = ['id', 'id_user', 'is_active', 'isactive']
+let tableKeys: TableKeys = ['id', 'id_user', 'is_active', 'isactive']  
 
 
 
