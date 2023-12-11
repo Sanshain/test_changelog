@@ -12,7 +12,7 @@ type Props = {
 
 
 type TableKeys = ArrayOfKeys<Props>;
-
+let tableKeys: TableKeys = ['id', 'id_user', 'is_active', 'isactive']
 
 
 
@@ -37,6 +37,10 @@ type LO = ObjectLength<Props>
 let r: LO = 4
 
 
+/**
+ * @description converts keys object to tuple (with sequence keeping)
+ * @deprecated - this type is research and doews not work as expected, because sequiense of keys is not defined (may be random under ts-server reboot)
+ */
 type ArrayOfKeys<O extends object, R extends PropertyKey[] = [], L extends PropertyKey = LastOf<keyof O>> = [L] extends [never]
     ? R
     : ArrayOfKeys<Omit<O, L>, [L, ...R]>;

@@ -1,5 +1,10 @@
 # changelog
 
+## 1.0.8 
+
+ - clean index.ts
+ - version upd
+
 ## 1.0.6
 
  - feature: added d
